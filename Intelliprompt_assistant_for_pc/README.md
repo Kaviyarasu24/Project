@@ -48,3 +48,6 @@ It can perform following tasks for now.
 "Save my file"<br>
 "Undo task"<br>
 "Redo task"
+
+<h3>GEMINI API CALLING</h3>
+"gemini your query to fetch"
