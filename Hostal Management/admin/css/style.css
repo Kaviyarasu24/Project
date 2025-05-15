@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #495057;
+    text-align: left;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background: #f8f9fa;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #1f2a44;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #2c3e50;
+}
+
+.sidebar {
+    width: 200px;
+    background: #212529;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    color: #adb5bd;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.sidebar a:hover {
+    background: #343a40;
+}
+
+.sidebar .dropdown-toggle {
+    color: #adb5bd;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar .dropdown-toggle:hover {
+    background: #343a40;
+}
+
+.sidebar .dropdown-menu {
+    background: #343a40;
+    border: none;
+    margin-left: 10px;
+}
+
+.sidebar .dropdown-menu li a {
+    color: #adb5bd;
+    padding: 8px 20px;
+}
+
+.sidebar .dropdown-menu li a:hover {
+    background: #495057;
+}
+
+.sidebar .dropup .dropdown-menu {
+    bottom: 100%;
+    top: auto;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 40px;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #212529;
+}
+
+.panel-body.bk-primary { background: #1f2a44; }
+.panel-body.bk-success { background: #28a745; }
+.panel-body.bk-info { background: #0dcaf0; }
+.panel-body.bk-danger { background: #dc3545; }
+.panel-body.bk-warning { background: #fd7e14; }
+
+.panel-body.text-light { color: #fff; }
+.stat-panel-number { font-size: 2.5em; }
+.stat-panel-title { font-size: 1.1em; text-transform: uppercase; }
+.block-anchor { color: #333; text-decoration: none; }
+.block-anchor:hover { color: #1f2a44; }
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #495057;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background: #e9ecef;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #1f2a44;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #2c3e50;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #1f2a44;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ced4da;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #e9ecef;
+}
+
+td form input[type="text"] {
+    width: 200px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
