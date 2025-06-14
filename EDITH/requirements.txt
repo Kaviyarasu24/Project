@@ -1,0 +1,8 @@
+pyttsx3
+SpeechRecognition
+keyboard
+google-generativeai
+python-decouple
+requests
+wikipedia
+pywhatkit

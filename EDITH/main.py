@@ -145,6 +145,7 @@ if __name__=='__main__':
                 response = model.generate_content(user_input)
                 print(response.text)
                 speak(response.text)"""
+                
             
 
 
