@@ -1,4 +1,4 @@
-# Voice Assistant for Windows 10
+# Prompt Assistant for Windows 10
 
 A Simple Voice Assistant that can perform tasks or services for you based on verbal commands.
 
