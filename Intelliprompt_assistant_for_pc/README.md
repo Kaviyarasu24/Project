@@ -1,6 +1,6 @@
 # Prompt Assistant for Windows 10
 
-A Simple Voice Assistant that can perform tasks or services for you based on verbal commands.
+A Simple Prompt Assistant that can perform tasks or services for you based on textual commands.
 
 Set  GEMINI_API_KEY as environmental variable in your system to use this application.
 You can get your API key from google android studio with your google account.
