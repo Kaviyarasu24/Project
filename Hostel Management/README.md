@@ -1,95 +1,130 @@
-Hostel Management System
-Overview
+# 🏨 Hostel Management System
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=whit---
+
+## 📝 Notes
+
+- 🎨 The application uses **Bootstrap 3.3.7** for styling, so ensure an internet connection for CDN links or host Bootstrap locally
+- 🔒 Passwords in the database should be hashed using PHP's `password_hash()` function for security
+- 🚀 The project can be extended with features like pagination, email notifications, or advanced reporting
+
+---
+
+## 📄 License
+This project is for **educational purposes** and does not include a specific license.
+
+---
+
+<p align="center">
+  <strong>🏨 Made with ❤️ for efficient hostel management</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version" />
+  <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status" />
+  <img src="https://img.shields.io/badge/PHP-7.4+-brightgreen.svg" alt="PHP Version" />
+</p>MySQL" />
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP" />
+</p>
+
+## 📋 Overview
 The Hostel Management System is a web-based application designed to streamline hostel operations. It provides role-based access for admins and students, allowing admins to manage hostel resources and students to interact with the system for various services.
-Features
 
-Admin Features:
-Manage students, courses, and rooms.
-View and resolve complaints.
-View feedback from students.
-Approve or reject leave requests.
-View attendance for all students by date.
+## ✨ Features
+
+### 👨‍💼 Admin Features:
+- 👥 Manage students, courses, and rooms
+- 🚨 View and resolve complaints
+- 💬 View feedback from students
+- ✅ Approve or reject leave requests
+- 📅 View attendance for all students by date
+
+### 👨‍🎓 Student Features:
+- 📢 Register complaints and submit feedback
+- 🏖️ Request leaves and view leave status
+- 👀 View personal attendance records
+- ✅ Mark their own attendance for a specific date
 
 
-Student Features:
-Register complaints and submit feedback.
-Request leaves and view leave status.
-View personal attendance records.
-Mark their own attendance for a specific date.
 
-
-
-Project Structure
+## 📁 Project Structure
 Below is the directory structure of the project:
+
+```
 Hostel-Management-System/
 │
-├── admin/
-│   ├── adminpage.php           # Admin login page
-│   ├── dashboard.php           # Admin dashboard with statistics
-│   ├── add-course.php          # Add a new course
-│   ├── manage-courses.php      # Manage courses
-│   ├── add-room.php            # Add a new room
-│   ├── manage-rooms.php        # Manage rooms
-│   ├── manage-students.php     # Manage students
-│   ├── complaints.php          # View and manage complaints
-│   ├── feedback.php            # View student feedback
-│   ├── leave-approval.php      # Approve/reject leave requests
-│   ├── mark-attendance.php     # Previously for admins to mark attendance (now user-side)
-│   └── view-all-attendance.php # View all students' attendance by date
+├── 📁 admin/                      
+│   ├── 🔐 adminpage.php         
+│   ├── 📊 dashboard.php          
+│   ├── ➕ add-course.php         
+│   ├── 📚 manage-courses.php      
+│   ├── 🏠 add-room.php           
+│   ├── 🛏️ manage-rooms.php        
+│   ├── 👥 manage-students.php     
+│   ├── 🚨 complaints.php          
+│   ├── 💬 feedback.php            
+│   ├── ✅ leave-approval.php      
+│   ├── 📝 mark-attendance.php    
+│   └── 📅 view-all-attendance.php 
 │
-├── user/
-│   ├── userlogin.php           # User (student) login page
-│   ├── dashboard.php           # User dashboard with student info
-│   ├── register-complaint.php  # Register a complaint
-│   ├── feedback.php            # Submit feedback
-│   ├── leave-request.php       # Request a leave
-│   ├── view-attendance.php     # View personal attendance
-│   ├── mark-attendance.php     # Mark own attendance
-│   └── logout.php              # User logout
+├── 📁 user/                       
+│   ├── 🔑 userlogin.php          
+│   ├── 🏠 dashboard.php          
+│   ├── 📢 register-complaint.php 
+│   ├── 💭 feedback.php            
+│   ├── 🏖️ leave-request.php       
+│   ├── 👀 view-attendance.php     
+│   ├── ✅ mark-attendance.php     
+│   └── 🚪 logout.php              
 │
-├── includes/
-│   └── dbconn.php              # Database connection script
+├── 📁 includes/                   
+│   └── 🔗 dbconn.php             
 │
-├── css/
-│   └── style.css               # Custom styles
+├── 📁 css/                        
+│   └── 🎨 style.css               
 │
-└── index.php                   # Landing page with login options
+└── 🏠 index.php                   
+```
 
-Prerequisites
+## 🔧 Prerequisites
 
-XAMPP: To run the PHP application and MySQL database.
-Web Browser: For accessing the application (e.g., Chrome, Firefox).
-Text Editor: For editing code (e.g., VS Code, Sublime Text).
+| Requirement | Purpose |
+|-------------|---------|
+| **🔥 XAMPP** | To run the PHP application and MySQL database |
+| **🌐 Web Browser** | For accessing the application (e.g., Chrome, Firefox) |
+| **📝 Text Editor** | For editing code (e.g., VS Code, Sublime Text) |
 
-Setup Instructions
-1. Install XAMPP
+## ⚙️ Setup Instructions
 
-Download and install XAMPP from https://www.apachefriends.org/.
-Start the Apache and MySQL modules from the XAMPP Control Panel.
+### 1️⃣ Install XAMPP
 
-2. Set Up the Project
+- 📥 Download and install XAMPP from https://www.apachefriends.org/
+- ▶️ Start the **Apache** and **MySQL** modules from the XAMPP Control Panel
 
-Clone or Copy the Project:
+### 2️⃣ Set Up the Project
 
-Place the project folder (Hostel-Management-System) inside the htdocs directory of your XAMPP installation (e.g., C:\xampp\htdocs\Hostel-Management-System).
+**📂 Clone or Copy the Project:**
+> Place the project folder (Hostel-Management-System) inside the htdocs directory of your XAMPP installation (e.g., `C:\xampp\htdocs\Hostel-Management-System`)
 
-
-Configure the Database:
-
-Open a web browser and go to http://localhost/phpmyadmin.
-Create a new database named hostel_management.
-Run the following SQL script to create the necessary tables:
+**🗄️ Configure the Database:**
+1. 🌐 Open a web browser and go to http://localhost/phpmyadmin
+2. 🆕 Create a new database named `hostel_management`
+3. 📋 Run the following SQL script to create the necessary tables:
 
 
 
--- Create admin table
+```sql
+-- 👨‍💼 Create admin table
 CREATE TABLE admin (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
 
--- Create students table
+-- 👨‍🎓 Create students table
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -109,13 +144,13 @@ CREATE TABLE students (
     FOREIGN KEY (course_id) REFERENCES courses(id)
 );
 
--- Create courses table
+-- 📚 Create courses table
 CREATE TABLE courses (
     id INT AUTO_INCREMENT PRIMARY KEY,
     course_name VARCHAR(100) NOT NULL
 );
 
--- Create rooms table
+-- 🏠 Create rooms table
 CREATE TABLE rooms (
     id INT AUTO_INCREMENT PRIMARY KEY,
     room_number VARCHAR(10) NOT NULL UNIQUE,
@@ -123,7 +158,7 @@ CREATE TABLE rooms (
     current_occupancy INT DEFAULT 0
 );
 
--- Create complaints table
+-- 🚨 Create complaints table
 CREATE TABLE complaints (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_id INT,
@@ -133,7 +168,7 @@ CREATE TABLE complaints (
     FOREIGN KEY (student_id) REFERENCES students(id)
 );
 
--- Create feedback table
+-- 💬 Create feedback table
 CREATE TABLE feedback (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_id INT,
@@ -142,7 +177,7 @@ CREATE TABLE feedback (
     FOREIGN KEY (student_id) REFERENCES students(id)
 );
 
--- Create leave_requests table
+-- 🏖️ Create leave_requests table
 CREATE TABLE leave_requests (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_id INT,
@@ -155,7 +190,7 @@ CREATE TABLE leave_requests (
     FOREIGN KEY (student_id) REFERENCES students(id)
 );
 
--- Create attendance table
+-- 📅 Create attendance table
 CREATE TABLE attendance (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_id INT,
@@ -165,17 +200,16 @@ CREATE TABLE attendance (
     FOREIGN KEY (student_id) REFERENCES students(id)
 );
 
--- Insert default admin (username: admin, password: admin)
+-- 🔐 Insert default admin (username: admin, password: admin)
 INSERT INTO admin (username, password) VALUES ('admin', '$2y$10$yourhashedpasswordhere');
 -- Note: Replace the password with a hashed version of 'admin' using PHP's password_hash() function.
 -- Example: echo password_hash('admin', PASSWORD_DEFAULT);
+```
 
+**🔗 Update Database Connection:**
+Open `includes/dbconn.php` and ensure it matches your database credentials (default for XAMPP is shown below):
 
-Update Database Connection:
-Open includes/dbconn.php and ensure it matches your database credentials (default for XAMPP is shown below):
-
-
-
+```php
 <?php
 $host = 'localhost';
 $username = 'root';
@@ -188,70 +222,66 @@ if ($mysqli->connect_error) {
     die('Connection failed: ' . $mysqli->connect_error);
 }
 ?>
+```
 
-3. Start the Application
+### 3️⃣ Start the Application
 
-Ensure Apache and MySQL are running in XAMPP.
-Open a web browser and go to http://localhost/Hostel-Management-System/.
-You should see the landing page (index.php) with options to log in as an admin or user.
+1. ✅ Ensure Apache and MySQL are running in XAMPP
+2. 🌐 Open a web browser and go to http://localhost/Hostel-Management-System/
+3. 👀 You should see the landing page (index.php) with options to log in as an admin or user
 
-Usage Guide
-Admin Access
+---
 
-Login:
-Go to http://localhost/Hostel-Management-System/admin/adminpage.php.
-Use the default credentials:
-Username: admin
-Password: admin
+## 📖 Usage Guide
 
+### 🔐 Admin Access
 
-(Change the password in the database after the first login for security.)
+**🚪 Login:**
+- 🌐 Go to http://localhost/Hostel-Management-System/admin/adminpage.php
+- 🔑 Use the default credentials:
+  - **Username:** `admin`
+  - **Password:** `admin`
+  
+> ⚠️ *(Change the password in the database after the first login for security.)*
 
+**📊 Dashboard:**
+- 📈 View statistics (total students, rooms, courses, complaints, feedback)
+- 🧭 Navigate to manage students, courses, rooms, complaints, feedback, leave requests, and attendance
 
-Dashboard:
-View statistics (total students, rooms, courses, complaints, feedback).
-Navigate to manage students, courses, rooms, complaints, feedback, leave requests, and attendance.
+**📅 View All Attendance:**
+- 🖱️ Click "View All Attendance" in the sidebar
+- 📆 Select a date to view the attendance status of all students for that date
 
+### 👨‍🎓 User (Student) Access
 
-View All Attendance:
-Click "View All Attendance" in the sidebar.
-Select a date to view the attendance status of all students for that date.
+**🚪 Login:**
+- 🌐 Go to http://localhost/Hostel-Management-System/userlogin.php
+- 👤 Students must be registered by the admin in the students table with a password
 
+**🏠 Dashboard:**
+- 📄 View personal information
+- 🔧 Register complaints, submit feedback, request leaves, view attendance, and mark attendance
 
-
-User (Student) Access
-
-Login:
-Go to http://localhost/Hostel-Management-System/userlogin.php.
-Students must be registered by the admin in the students table with a password.
-
-
-Dashboard:
-View personal information.
-Register complaints, submit feedback, request leaves, view attendance, and mark attendance.
-
-
-Mark Attendance:
-Click "Mark Attendance" in the sidebar.
-Select a date and mark your status (Present/Absent).
+**✅ Mark Attendance:**
+- 🖱️ Click "Mark Attendance" in the sidebar
+- 📅 Select a date and mark your status (Present/Absent)
 
 
 
-Troubleshooting
+---
 
-Database Connection Error:
-Ensure MySQL is running in XAMPP.
-Verify the database credentials in includes/dbconn.php.
+## 🐛 Troubleshooting
 
+| ❌ Issue | 🔍 Cause | ✅ Solution |
+|----------|----------|-------------|
+| **Database Connection Error** | MySQL not running | Ensure MySQL is running in XAMPP |
+| **Styles Not Loading** | CSS file issues | Ensure css/style.css exists and is accessible |
+| **Login Issues** | Incorrect credentials | Verify admin password in database |
 
-Styles Not Loading:
-Ensure css/style.css exists and is accessible.
-Check the browser console for errors (right-click > Inspect > Console).
-
-
-Login Issues:
-Verify the admin password in the admin table is correctly hashed.
-Ensure student records exist in the students table for user login.
+**🔧 Additional Steps:**
+- 🖥️ Verify the database credentials in `includes/dbconn.php`
+- 🌐 Check the browser console for errors (right-click > Inspect > Console)
+- 🔐 Ensure student records exist in the students table for user login
 
 
 
@@ -260,6 +290,3 @@ Notes
 The application uses Bootstrap 3.3.7 for styling, so ensure an internet connection for CDN links or host Bootstrap locally.
 Passwords in the database should be hashed using PHP’s password_hash() function for security.
 The project can be extended with features like pagination, email notifications, or advanced reporting.
-
-License
-This project is for educational purposes and does not include a specific license.
